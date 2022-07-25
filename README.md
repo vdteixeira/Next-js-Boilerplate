@@ -30,6 +30,7 @@ Developer experience first:
 - 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
+- 💯 Daisyui component
 
 Built-in feature from Next.js:
 
