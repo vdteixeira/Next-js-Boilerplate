@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import { Button, Theme } from 'react-daisyui';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
@@ -24,6 +25,13 @@ const Index = () => {
       <h1 className="text-2xl font-bold">
         Boilerplate code for your Nextjs project with Tailwind CSS
       </h1>
+      <Theme dataTheme="dark">
+        <Button color="accent">Click me, dark!</Button>
+      </Theme>
+
+      <Theme dataTheme="light">
+        <Button color="accent">Click me, light!</Button>
+      </Theme>
       <p>
         <span role="img" aria-label="rocket">
           🚀
